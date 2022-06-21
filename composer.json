@@ -1,6 +1,24 @@
 {
-	"name": "sabina-talipova/silverstripe-3D-scene",
+	"name": "sabina-talipova/silverstripe-3d-scene",
 	"description": "SilverStripe model to creating and working with 3D models",
 	"type": "silverstripe-vendormodule",
-	"require": {}
+    "keywords": [
+        "silverstripe",
+        "scene",
+        "3d scene"
+    ],
+    "license": "MIT License",
+    "authors": [{
+        "name": "Sabina Talipova",
+        "email": "sabina.talipova@silverstripe.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+	"require": {},
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:sabina-talipova/silverstripe-3D-scene.git"
+		}
+	]
 }
