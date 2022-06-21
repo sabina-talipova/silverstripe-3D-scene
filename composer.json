@@ -14,11 +14,32 @@
     }],
     "minimum-stability": "dev",
     "prefer-stable": true,
-	"require": {},
+    "require": {
+        "php": "^7.1",
+        "silverstripe/cms": "^4.7@dev",
+        "silverstripe/admin": "^1.7@dev",
+        "silverstripe/versioned": "^1.7@dev",
+        "silverstripe/versioned-admin": "^1.7@dev",
+        "silverstripe/graphql": "^3.5 || ^4",
+        "symbiote/silverstripe-gridfieldextensions": "^3.1",
+        "silverstripe/vendor-plugin": "^1"
+    },
+    "require-dev": {
+      "silverstripe/recipe-testing": "1.x-dev"
+    },
     "repositories": [
 		{
 			"type": "vcs",
 			"url": "git@github.com:sabina-talipova/silverstripe-3D-scene.git"
 		}
-	]
+	],
+    "extra": {
+        "expose": [
+            "client/dist",
+            "client/lang"
+        ]
+    },
+    "autoload": {
+        "psr-4": {}
+    }
 }
