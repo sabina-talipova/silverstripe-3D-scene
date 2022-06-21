@@ -1,0 +1,6 @@
+{
+	"name": "sabina-talipova/silverstripe-3D-scene",
+	"description": "SilverStripe model to creating and working with 3D models",
+	"type": "silverstripe-vendormodule",
+	"require": {}
+}
