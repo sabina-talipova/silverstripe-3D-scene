@@ -1,0 +1,7 @@
+# Docker
+/docker-compose.yml
+/Dockerfile.74
+/Dockerfile.80
+
+# Silverstripe/PHP specific
+/vendor
