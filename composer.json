@@ -1,6 +1,6 @@
 {
 	"name": "sabina-talipova/silverstripe-3d-scene",
-	"description": "SilverStripe model to creating and working with 3D models",
+	"description": "SilverStripe module for creating and working with 3D models",
 	"type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
@@ -14,26 +14,14 @@
     }],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "php": "^7.1",
-        "silverstripe/cms": "^4.7@dev",
-        "silverstripe/admin": "^1.7@dev",
-        "silverstripe/versioned": "^1.7@dev",
-        "silverstripe/versioned-admin": "^1.7@dev",
-        "silverstripe/graphql": "^3.5 || ^4",
-        "symbiote/silverstripe-gridfieldextensions": "^3.1",
-        "silverstripe/vendor-plugin": "^1"
-    },
-    "require-dev": {
-      "silverstripe/recipe-testing": "1.x-dev"
-    },
     "repositories": [
 		{
 			"type": "vcs",
-			"url": "git@github.com:sabina-talipova/silverstripe-3D-scene.git"
+			"url": "git@github.com:sabina-talipova/silverstripe-3d-scene.git"
 		}
 	],
     "extra": {
+        "installer-name": "3d-scene",
         "expose": [
             "client/dist",
             "client/lang"
