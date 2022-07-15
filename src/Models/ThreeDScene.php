@@ -2,7 +2,7 @@
 
 namespace ThreeDScene\Models;
 
-use Silverstripe\ORM\DataObject;
+use SilverStripe\ORM\DataObject;
 
 class ThreeDScene extends DataObject
 {

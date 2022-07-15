@@ -29,5 +29,16 @@
     },
     "autoload": {
         "psr-4": {}
-    }
+    },
+	"require": {
+		"silverstripe/framework": "^4.11",
+		"silverstripe/cms": "^4.11",
+		"silverstripe/admin": "^1.11"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"silverstripe/vendor-plugin": true
+		}
+	}
 }
