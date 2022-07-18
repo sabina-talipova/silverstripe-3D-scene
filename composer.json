@@ -7,7 +7,7 @@
         "scene",
         "3d scene"
     ],
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [{
         "name": "Sabina Talipova",
         "email": "sabina.talipova@silverstripe.com"
