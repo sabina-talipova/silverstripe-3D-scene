@@ -33,7 +33,8 @@
 	"require": {
 		"silverstripe/framework": "^4.11",
 		"silverstripe/cms": "^4.11",
-		"silverstripe/admin": "^1.11"
+		"silverstripe/admin": "^1.11",
+		"sabina-talipova/silverstripe-threejs": "dev-master"
 	},
 	"config": {
 		"allow-plugins": {
