@@ -1,6 +1,6 @@
 <?php
 
-namespace ThreeDScene\Models;
+namespace SabinaTalipova\ThreeDScene\Models;
 
 use Silverstripe\ORM\DataObject;
 
