@@ -4,4 +4,8 @@
 /Dockerfile.80
 
 # Silverstripe/PHP specific
-/vendor
+/.env
+/vendor/
+/themes/simple/
+/resources/
+/public/
