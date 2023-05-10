@@ -1,6 +1,6 @@
 <?php
 
-namespace SabinaTalipova\ThreeDScene\Models;
+namespace SabinaTalipova\ThreeDScene\Models\Material;
 
 use SilverStripe\Assets\Image;
 use Silverstripe\ORM\DataObject;

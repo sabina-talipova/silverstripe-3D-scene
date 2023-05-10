@@ -5,7 +5,6 @@ namespace SabinaTalipova\ThreeDScene\Admins;
 use SilverStripe\Admin\ModelAdmin;
 use SilverStripe\View\SSViewer;
 use SabinaTalipova\ThreeDScene\Models\ThreeDScene;
-use SabinaTalipova\ThreeDScene\Models\ThreeDSceneMaterial;
 
 class ThreeDSceneAdmin extends ModelAdmin
 {
@@ -18,7 +17,6 @@ class ThreeDSceneAdmin extends ModelAdmin
 
     private static array $managed_models = [
         ThreeDScene::class,
-        ThreeDSceneMaterial::class,
     ];
 
     private static $allowed_actions = [

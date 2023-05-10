@@ -6,6 +6,7 @@ use SilverStripe\Control\Controller;
 use SilverStripe\ORM\CMSPreviewable;
 use SilverStripe\ORM\DataObject;
 use SabinaTalipova\ThreeDScene\Admins\ThreeDSceneAdmin;
+use SabinaTalipova\ThreeDScene\Models\Object\ThreeDSceneObject;
 
 class ThreeDScene extends DataObject implements CMSPreviewable
 {
@@ -20,17 +21,25 @@ class ThreeDScene extends DataObject implements CMSPreviewable
     private static $show_unversioned_preview_link = true;
 
     private static $db = [
-        'Title' => 'Varchar'
+        'Title' => 'Varchar',
+        'Summary' => 'HTMLText',
+        'Background' => 'Varchar',
     ];
 
     private static $has_many = [
         'Object' => ThreeDSceneObject::class,
         'Light' => ThreeDSceneLight::class,
         'Camera' => ThreeDSceneCamera::class,
+        'Audio' => ThreeDSceneAudio::class,
+    ];
+
+    private static $defaults = [
+        'Background' => '#000000',
     ];
 
     public function PreviewLink($action = null)
     {
+        if (!$this->ID) return '';
         $admin = ThreeDSceneAdmin::singleton();
         return Controller::join_links(
             $admin->Link(str_replace('\\', '-', $this->ClassName)),
